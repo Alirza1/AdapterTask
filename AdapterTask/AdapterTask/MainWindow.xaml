@@ -1,0 +1,18 @@
+﻿<Window x:Class="AdapterTask.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AdapterTask"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label FontSize="40" FontWeight="DemiBold">Name:</Label>
+        <TextBox Name="name_txtb" FontSize="26" Height="50" Width="300" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10,75,0,0"></TextBox>
+        <Label FontSize="40" FontWeight="DemiBold" Margin="0,150,0,0">Surname</Label>
+        <TextBox Name="surname_txtb" FontSize="26" Height="50" Width="300" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10,230,0,0"></TextBox>
+        <Button Click="commit_btn_Click" Name="commit_btn" FontSize="40" FontWeight="DemiBold" Height="75" Width="300" VerticalAlignment="Bottom" Margin="0,0,0,20">Commit</Button>
+        <RadioButton Height="45" Width="130" FontSize="35" VerticalAlignment="Top" Margin="100,100,0,0" Name="xml_rb">XML</RadioButton>
+        <RadioButton Height="45" Width="130" FontSize="35" VerticalAlignment="Top" Margin="100,200,0,0" Name="json_rb">JSON</RadioButton>
+    </Grid>
+</Window>
